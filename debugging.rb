@@ -1,3 +1,5 @@
+require 'pry'
+
 menu = [
   {
     id: 1,
@@ -64,3 +66,5 @@ def snack_names(menu)
 end
 
 puts snack_names(menu)
+
+Pry.start
