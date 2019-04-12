@@ -1,4 +1,3 @@
-require 'pry'
 
 menu = [
   {
@@ -51,15 +50,21 @@ menu = [
   }
 ]
 
+# user can input code to return purchased item
+# update the quantity
+# calculate change
+
+
+
+
+
 mySnax = []
 
 eatenSnax = []
 
 wallet = 10
 
-# puts menu
-
-def snack_names(menu)
+def snack_names
   menu.map do |snack|
     snack[:name]
   end
@@ -67,4 +72,4 @@ end
 
 puts snack_names(menu)
 
-Pry.start
+# Pry.start

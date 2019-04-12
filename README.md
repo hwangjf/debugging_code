@@ -2,18 +2,25 @@ Debugging your Code
 
 Things to consider and goals:
 * what do we know about programming?
+  * syntax - languages, JavaScript
   * variables
+    * what is a variable, and how is that different than a string
   * data structures
     * array, hash, object, or map
   * loops
-  * syntax
+    * for loop
 
 * what is the goal of programming?
   * solve a problem or create some type of behavior
 
 * What is a bug?
+  * when it does not work, and does not produce expected output
 
 * What are some bugs you have hit and is anyone willing to provide me with an example of a bug that they've come across?
+  * syntax
+  * undefined
+  * missing something from a () , {} , end , tab, throws an error
+  * unexpected behavior
 
 * How did you go about solving it?
 
@@ -85,5 +92,3 @@ Potential questions
 5. Return an array of names
 6. Return an array of prices
 7. Add a snack to my Snax, eatenSnax, and subtract from wallet
-
-
